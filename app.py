@@ -361,5 +361,6 @@ def getdata():
         return excel.make_response_from_array(array_data,'xlsx',filename='notesdata')
     else:
         return redirect(url_for('login'))
+  
 if __name__=='__main__':
     app.run()
